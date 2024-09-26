@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.badge-lg {
+    font-size: 2.0rem;
+}
+
+.avatar {
+    width: 128px; 
+    height: 128px;
+}
