@@ -36,6 +36,7 @@ class CommentEmails
     public function handleSendCommentPostedEmail($comment): void
     {
         // Send email
+
         // Mail::to($comment->user->email)->send(
         //     // new CommentPosted($comment)
         //     new CommentPostedMarkdown($comment)

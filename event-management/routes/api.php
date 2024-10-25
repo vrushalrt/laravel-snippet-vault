@@ -27,6 +27,7 @@ RateLimiter::for('api', function (Request $request){
 // defined in the file `vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php`
 // The middleware is registered in the file `vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php`
 // The middleware uses the `auth:sanctum` guard that is defined in the file `config/auth.php`
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });

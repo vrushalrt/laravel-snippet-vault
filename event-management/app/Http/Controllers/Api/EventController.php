@@ -45,6 +45,7 @@ class EventController extends Controller
             $query->latest()->paginate()
         );        }
 
+
 //    protected function shouldIncludeRelation(string $relation): bool
 //    {
 //        $include = request()->query('include');
